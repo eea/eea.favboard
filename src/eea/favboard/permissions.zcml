@@ -6,6 +6,12 @@
   <configure zcml:condition="installed AccessControl.security">
   <!-- -*- extra stuff goes here -*- -->
 
+    <permission
+        id="eea.favboard.AddFavBoardContainer"
+        title="eea.favboard: Add FavBoardContainer"
+    />
+
+
 
   </configure>
 
