@@ -1,0 +1,5 @@
+============
+eea.favboard
+============
+
+User documentation
