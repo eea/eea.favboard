@@ -42,4 +42,20 @@
 
   <!-- -*- extra stuff goes here -*- -->
 
+  <plone:service
+      method="GET"
+      for="zope.interface.Interface"
+      factory="eea.favboard.content.api.BookmarksGet"
+      name="@bookmarks-all"
+      permission="zope2.View"
+      />
+
+   <plone:service
+      method="PUT"
+      for="zope.interface.Interface"
+      factory="eea.favboard.content.api.BookmarkPut"
+      name="@bookmark-update"
+      permission="zope2.View"
+      />
+
 </configure>
